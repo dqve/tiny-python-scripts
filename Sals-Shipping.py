@@ -1,3 +1,32 @@
+# This is a program that will take the weight of a package and
+# determine the cheapest way to ship that package using Sal’s Shippers.
+#
+## Ground Shipping:
+#
+#Weight of Package	                     |Price per Pound |	Flat Charge
+#2 lb or less	                           |  $1.50	        |   $20.00
+#Over 2 lb but less than or equal to 6 lb	|  $3.00	        |   $20.00
+#Over 6 lb but less than or equal to 10 lb|  $4.00         |   $20.00
+#Over 10 lb	                              |  $4.75	        |   $20.00
+#
+## Drone Shipping:
+#
+#Weight of Package	                     |Price per Pound |	Flat Charge
+#2 lb or less	                           |  $4.50	        |   $0.00
+#Over 2 lb but less than or equal to 6 lb	|  $9.00	        |   $0.00
+#Over 6 lb but less than or equal to 10 lb|  $12.00        |   $0.00
+#Over 10 lb	                              |  $14.25	     |   $0.00
+#
+##Premium Ground Shipping
+#
+#Flat charge: $125.00
+#
+#The program below asks the user for the weight of their package and then tells them which method of shipping is 
+#cheapest and how much it will cost to ship their package using Sal’s Shippers.
+##
+
+
+
 def ground_shipping_cost(weight):
    if weight <= 2:
      cost = 1.5 * weight + 20   
@@ -36,7 +65,7 @@ def drone_shipping_cost(weight):
 
 print(drone_shipping_cost(1.5))
 
-def cheap_shipping(weight):
+def sals_shipper(weight):
   ground = ground_shipping_cost(weight)
   drone = drone_shipping_cost(weight)
 
@@ -47,4 +76,5 @@ def cheap_shipping(weight):
   else:
     print("The cheapest way to ship a 41.5 pound package is using premium ground shipping and it will cost $"+str(premium_ground_shipping))
 
-cheap_shipping(41.5)
+sals_shipper(41.5)
+#test
