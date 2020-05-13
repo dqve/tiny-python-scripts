@@ -7,7 +7,7 @@ Small real world python applications
 * Run the following in Bash
 
 ```
-python3 <file_name>.py
+$ python3 <file_name>.py
 ```
 
 ## Index
