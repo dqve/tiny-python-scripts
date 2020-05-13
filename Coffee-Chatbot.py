@@ -1,4 +1,9 @@
-# Define your functions
+##
+#This is a program that implements a Python chatbot's conversational flow
+#This program aims at improving the wait time of a normal coffee preparation
+#run by taking customers’ orders in advance.
+##
+
 def coffee_bot():
   print("Welcome to the cafe!")
   size = get_size()
