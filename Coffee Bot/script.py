@@ -1,0 +1,6 @@
+from utils import print_message, get_size, order_latte
+
+def coffee_bot():
+  print('Welcome to the cafe!')
+  order_drink = 'y'
+  drinks = []
