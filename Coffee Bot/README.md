@@ -15,12 +15,11 @@ We use Loops to add the following extra features:
 * Run the following in Bash
 
 ```
-$ python3 <file_name>.py
+$ python3 script.py
 ```
 
-## Index
-1. [Sal's Shipping](/Sals-Shipping.py)
-2. [Coffee Chatbot](/Coffee-Chatbot.py)
+## File System
+
 
 ## Author
 * **David Ayo**⚡⚡ - [🐦](https://twitter.com/dqve__)
