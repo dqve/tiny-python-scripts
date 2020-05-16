@@ -1,5 +1,6 @@
 from utils import print_message, get_size, order_latte
 
+# Define new functions here!
 def coffee_bot():
   print('Welcome to the cafe!')
   order_drink = 'y'
@@ -24,7 +25,7 @@ def coffee_bot():
 	name = input('Can I get your name please? \n> ')
   print('Thanks, {}! Your order will be ready shortly.'.format(name))
 
-
+# Define new functions here!
 def get_drink_type():
 	res = input('What type of drink would you like? \n[a] Brewed Coffee \n[b] Mocha \n[c] Latte \n> ')
 
@@ -38,4 +39,18 @@ def get_drink_type():
 		print_message()
 		return get_drink_type()
 
-		
+# Define new functions here!
+def order_mocha():
+	while True:
+		res = input('Would you like to try our limited-edition peppermint mocha? \n[a] Sure!\n[b] Maybe next time!\n>')
+		if res == 'a':
+			return 'peppermint mocha'
+		elif res == 'b':
+			return 'mocha'
+		else:
+			return res
+		print_message()
+
+
+
+coffee_bot()
