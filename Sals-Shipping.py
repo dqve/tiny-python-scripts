@@ -76,5 +76,6 @@ def sals_shipper(weight):
   else:
     print("The cheapest way to ship a 41.5 pound package is using premium ground shipping and it will cost $"+str(premium_ground_shipping))
 
+#initialize function
 sals_shipper(41.5)
-#test
+
