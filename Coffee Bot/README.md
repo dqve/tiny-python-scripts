@@ -19,6 +19,9 @@ $ python3 script.py
 ```
 
 ## File System
+* **Script.py** This contains our major chatbot function and other sub-functions
+* **utils.py** This contains sub-functions that will under minimal change/improvements
+
 
 
 ## Author
