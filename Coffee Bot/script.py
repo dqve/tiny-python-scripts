@@ -23,3 +23,19 @@ def coffee_bot():
 
 	name = input('Can I get your name please? \n> ')
   print('Thanks, {}! Your order will be ready shortly.'.format(name))
+
+
+def get_drink_type():
+	res = input('What type of drink would you like? \n[a] Brewed Coffee \n[b] Mocha \n[c] Latte \n> ')
+
+	if res == 'a':
+		return 'brewed coffee'
+	elif res == 'b':
+		return order_mocha()
+	elif res == 'c':
+		return order_latte()
+	else:
+		print_message()
+		return get_drink_type()
+
+		
