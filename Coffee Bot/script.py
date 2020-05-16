@@ -52,5 +52,5 @@ def order_mocha():
 		print_message()
 
 
-
+#initialize Bot
 coffee_bot()
