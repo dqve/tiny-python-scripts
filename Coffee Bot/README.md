@@ -3,9 +3,11 @@ When in doubt, drink more coffee!
 
 #### A Coffee-order taking ChatBot implementation using Loops
 
-The previous Coffee Chatbot project featured an implementation of a Python chatbot for ordering one cup of coffee by leveraging recursive functions, user inputs, and print statements. The solution code from that project is carried over here. Now, it’s time to take this chatbot to the next level by adding loops!
+The previous Coffee Chatbot project featured an implementation of a Python chatbot for ordering one cup of coffee by leveraging recursive functions, user inputs, and print statements. Here that chatbot is taken to the next level by adding loops!
 
-Loops allow us to perform some action repeatedly – such as placing an order for multiple drinks – without needing to write an excess amount of code. You’ll be doing this here! Write all your code in the file called script.py and run it by entering python3 script.py in the terminal.
+We use Loops to add the following extra features
+  * Placing an order for multiple drinks
+
 
 ## Development
 * Clone the repo unto your system
