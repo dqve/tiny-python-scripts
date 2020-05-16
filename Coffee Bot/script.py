@@ -13,3 +13,11 @@ def coffee_bot():
     drinks.append(drink)
     print('Alright, that\'s a {}!'.format(drink))
       
+    for i in drinks:
+      print("Okay, so I have:\n -"+str(drink))
+
+    while True:
+      order_drink = input("Would you like to order another drink? (y/n)\n>")
+      if order_drink in ['y', 'n']:
+        break
+
