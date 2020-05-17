@@ -32,3 +32,7 @@ for player,words in player_to_words.items():
 
 print(player_to_points)
 
+def play_word():
+  print("Hello there, ready to srabble !!??")
+  player_status = input("Are you a new player?\n[a] yes\n[b] no\n>")
+
