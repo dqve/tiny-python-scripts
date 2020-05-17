@@ -36,3 +36,9 @@ def play_word():
   print("Hello there, ready to srabble !!??")
   player_status = input("Are you a new player?\n[a] yes\n[b] no\n>")
 
+  if player_status == "a":
+    player_name = input("Are you a new player?\n[a] yes\n[b] no\n>")
+  elif player_status == "b":
+    g
+  else:
+    play_word()
