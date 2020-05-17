@@ -3,7 +3,7 @@ Small real world python applications
 
 ## Development
 * Clone the repo unto your system
-* Navigate into the folder containing the code base
+* Navigate into the folder containing the code base and run
 
 ```
 $ python3 <file_name>.py
