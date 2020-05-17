@@ -6,3 +6,13 @@ letter_to_points[" "] = 0
 
 letter_to_points = {letter:point for letter,point in zip(letters,points)}
 letter_to_points[" "] = 0
+
+def score_word(word):
+  point_total = 0
+  for char in word:
+    point = letter_to_points.get(char,0)
+    point_total += point
+    #print(char,point,point_total)
+  return point_total
+
+  
