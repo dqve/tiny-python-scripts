@@ -12,7 +12,7 @@ $ python3 <file_name>.py
 ## Index
 1. [Sal's Shipping](/Sals-Shipping.py)
 2. [Coffee Chatbot](/Coffee-Chatbot.py)
-3. [Scrabble](/Scrabble.py)
+3. [Scrabble](/scrabble.py)
 4. [Coffee Bot pro] (/Coffee-Bot)
 
 ## Author
