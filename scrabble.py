@@ -14,6 +14,7 @@ def score_word(word):
     point_total += point
     #print(char,point,point_total)
   return point_total
+  
 
 player_to_words = {}
 
