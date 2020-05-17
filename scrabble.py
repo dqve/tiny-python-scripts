@@ -15,4 +15,9 @@ def score_word(word):
     #print(char,point,point_total)
   return point_total
 
-  
+player_to_words = {}
+
+player_to_words["player1"] = ["BLUE","TENNIS","EXIT"]
+player_to_words["wordNerd"] = ["EARTH","EYES","MACHINE"]
+player_to_words["Lexi Con"] = ["ERASER","BELLY","HUSKY"]
+player_to_words["Prof Reader"] = ["ZAP","COMA","PERIOD"]
