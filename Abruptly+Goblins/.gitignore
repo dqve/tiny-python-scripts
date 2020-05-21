@@ -34,6 +34,7 @@ build
 
 # Mac files
 .DS_Store
+__MACOSX
 
 # Webpack build folder
 dist
