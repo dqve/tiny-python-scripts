@@ -35,6 +35,7 @@ build
 # Mac files
 .DS_Store
 __MACOSX
+Abruptly+Goblins.zip
 
 # Webpack build folder
 dist
