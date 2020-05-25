@@ -15,6 +15,7 @@ $ python3 <file_name>.py
 3. [Scrabble](/scrabble.py)
 4. [Coffee Bot pro](/Coffee-Bot)
 5. [Shapes](/shapes)
+6. [Abruptly Goblins](/Abruptly+Goblins)
 
 ## Author
 * **David Ayo**⚡⚡ - [🐦](https://twitter.com/dqve__)
