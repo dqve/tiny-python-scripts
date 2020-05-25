@@ -14,6 +14,7 @@ $ python3 <file_name>.py
 2. [Coffee Chatbot](/Coffee-Chatbot.py)
 3. [Scrabble](/scrabble.py)
 4. [Coffee Bot pro](/Coffee-Bot)
+5. [Shapes](/shapes)
 
 ## Author
 * **David Ayo**⚡⚡ - [🐦](https://twitter.com/dqve__)
